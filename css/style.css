@@ -1,0 +1,170 @@
+body {
+    min-width: 520px;
+  }
+  .abc{
+    overflow: hidden;
+  }
+/*  draggable*/
+ #draggable { 
+ 	margin: 10px 10px 10px 0;
+ 	width: 200px;
+ 	height: 200px; 
+ 	padding: 0.5em;
+ 	float: left; 
+ 	background-color: lightblue; 
+  }
+
+/*droppable*/
+ #droppable { 
+ 	margin: 10px;
+ 	width: 250px; 
+ 	height: 250px; 
+ 	padding: 0.5em; 
+ 	float: left;   
+ }
+
+/*resizable*/
+ #resizable { 
+    margin: 10px;
+ 	width: 150px; 
+ 	height: 150px; 
+ 	padding: 0.5em; 
+    overflow: hidden;
+ }
+
+  #resizable h3 { 
+  	text-align: center; 
+  	margin: 0; 
+ }
+
+/*selectable*/
+#feedback { 
+    font-size: 1.4em; 
+}
+  #selectable .ui-selecting { 
+    background: #FECA40; 
+}
+  #selectable .ui-selected { 
+    background: #F39814; 
+    color: white; 
+}
+  #selectable { 
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    width: 450px; 
+}
+  #selectable li { 
+    margin: 3px; 
+    padding: 1px; 
+    float: left; 
+    width: 100px; 
+    height: 80px; 
+    font-size: 4em; 
+    text-align: center; 
+}
+
+
+/*column*/
+  .column {
+    width: 170px;
+    float: left;
+    padding-bottom: 100px;
+  }
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  }
+
+/*autocomplete*/
+.ui-autocomplete-category {
+    font-weight: bold;
+    padding: .2em .4em;
+    margin: .8em 0 .2em;
+    line-height: 1.5;
+  }
+
+/*menu*/
+.ui-menu { 
+  width: 150px; 
+}
+
+/*prgressbar*/
+#progressbar {
+    margin-top: 20px;
+  }
+ 
+  .progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+ 
+  .ui-dialog-titlebar-close {
+    display: none;
+  }
+
+/*selectmenu*/
+
+ fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+/*colorpicker*/
+ #red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+  }
+  #swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+  }
+  #red .ui-slider-range { 
+    background: #ef2929; 
+  }
+  #red .ui-slider-handle { 
+    border-color: #ef2929; 
+  }
+  #green .ui-slider-range { 
+    background: #8ae234; 
+  }
+  #green .ui-slider-handle { 
+    border-color: #8ae234; 
+  }
+  #blue .ui-slider-range { 
+    background: #729fcf; 
+  }
+  #blue .ui-slider-handle { 
+    border-color: #729fcf; 
+  }
+

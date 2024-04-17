@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JQ UI</title>
+    <!-- plugin links -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- css links-->
+    <link rel="stylesheet"  href="../css/bootstrap.css">
+    <link rel="stylesheet"  href="../css/style.css">
+    <link rel="stylesheet"  href="../css/media.css">
+  </head>
+  <body>
+
+   <div class="container">
+
+     <!-- dialog -->
+      <div id="dialog" title="Basic dialog">
+      <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+      </div>
+ 
+      <button class="ui-button ui-widget ui-corner-all mt-3" id="opener">Open Dialog</button>
+
+     <!-- menu -->
+    <ul id="menu" class="mt-4">
+        <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+        <li><div>Books</div></li>
+        <li><div>Clothing</div></li>
+        <li><div>Electronics</div>
+          <ul>
+            <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+            <li><div>Car Hifi</div></li>
+            <li><div>Utilities</div></li>
+          </ul>
+          </li>
+          <li><div>Movies</div></li>
+          <li><div>Music</div>
+            <ul>
+              <li><div>Rock</div>
+                <ul>
+                  <li><div>Alternative</div></li>
+                  <li><div>Classic</div></li>
+                </ul>
+              </li>
+              <li><div>Jazz</div>
+              <ul>
+                <li><div>Freejazz</div></li>
+                <li><div>Big Band</div></li>
+                <li><div>Modern</div></li>
+              </ul>
+            </li>
+            <li><div>Pop</div></li>
+          </ul>
+        </li>
+        <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+    </ul>
+
+    <!-- progressbar -->
+    <div id="dialog" title="File Download">
+     <div class="progress-label">Starting download...</div>
+     <div id="progressbar"></div>
+     </div>
+    <button class="mt-4" id="downloadButton">Start Download</button>
+
+    <!-- selectmenu -->
+    <div class="demo mb-5" >
+ 
+      <form action="#">
+       
+        <fieldset>
+          <label for="speed">Select a speed</label>
+          <select name="speed" id="speed">
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+          </select>
+ 
+          <label for="files">Select a file</label>
+          <select name="files" id="files">
+            <optgroup label="Scripts">
+              <option value="jquery">jQuery.js</option>
+              <option value="jqueryui">ui.jQuery.js</option>
+            </optgroup>
+            <optgroup label="Other files">
+              <option value="somefile">Some unknown file</option>
+              <option value="someotherfile">Some other file with a very long option text</option>
+            </optgroup>
+          </select>
+ 
+          <label for="number">Select a number</label>
+          <select name="number" id="number">
+            <option>1</option>
+            <option selected="selected">2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+          </select>
+ 
+          <label for="salutation">Select a title</label>
+          <select name="salutation" id="salutation">
+            <option disabled="" selected="">Please pick one</option>
+            <option>Mr.</option>
+            <option>Mrs.</option>
+            <option>Dr.</option>
+            <option>Prof.</option>
+            <option>Other</option>
+          </select>
+        </fieldset>
+       
+      </form>
+       
+      </div>
+
+
+    <!-- colorpicker -->
+     <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+        <span class="ui-icon ui-icon-pencil" style="float:left; margin:-2px 5px 0 0;"></span>
+        Simple Colorpicker
+      </p>
+       
+      <div id="red"></div>
+      <div id="green"></div>
+      <div id="blue"></div>
+ 
+    <div id="swatch" class="ui-widget-content ui-corner-all"></div>
+
+
+
+   </div>
+
+
+
+
+
+
+    <!-- script links -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- plugin links -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
